@@ -1,0 +1,45 @@
+{
+  "name": "expense_app_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node app.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.7",
+    "bootstrap-vue": "^2.0.0-rc.19",
+    "core-js": "^3.1.2",
+    "crypto-js": "^3.1.9-1",
+    "cryptojs": "^2.5.3",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10",
+    "vue-paystack": "^2.0.2",
+    "vue-router": "^3.1.3",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.3.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "express": "^4.17.1",
+    "mutationobserver-shim": "^0.3.3",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "portal-vue": "^2.1.4",
+    "sass-loader": "^7.1.0",
+    "serve-static": "^1.14.1",
+    "vue-cli-plugin-bootstrap-vue": "^0.4.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

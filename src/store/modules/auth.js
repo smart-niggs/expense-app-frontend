@@ -35,7 +35,7 @@ const actions = {
         if (res.data.status === 'success') {
           // commit('updateCreatedUser', true) // show notification
           // console.log('userLevel: ' + userLevel);
-          router.replace('/login')
+          router.replace('/')
           return res.data;
         }
         return false

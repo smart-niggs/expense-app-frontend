@@ -51,22 +51,7 @@
                       <button type="button" class="btn btn-primary btn-sm" :disabled="$v.$invalid || submitDisabled" @click="createUser">SignUp</button>
                       <!-- <router-link to="/dashboard"><button class="btn btn-primary submit-btn btn-block">Login</button></router-link> -->
                     </div>
-<<<<<<< HEAD
                     
-=======
-                    <div class="form-group d-flex justify-content-between">
-                      <!-- <div class="form-check form-check-flat mt-0">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input" checked> Keep me signed in
-                        </label>
-                      </div> -->
-                      <!-- <a href="javascript:void(0)" class="text-small forgot-password text-black">Forgot Password</a> -->
-                    </div>
-                    <!-- <div class="form-group">
-                      <button class="btn btn-block g-login" hr>
-                        <img class="mr-3" src="@/assets/images/file-icons/icon-google.svg" alt="">Log in with Google</button>
-                    </div> -->
->>>>>>> staging
                     <div class="text-block text-center my-3">
                       <span>Already a User ?</span><router-link :to="'/'"><a class="" > Login</a></router-link>
                       <!-- <a href="javascript:void(0)" class="text-black text-small">Create new account</a> -->

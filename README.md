@@ -1,6 +1,8 @@
 # Expense App
-### Built with VueJS
 
+Built with VueJS
+
+---
 
 ## Project setup
 ```
